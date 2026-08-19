@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.openai/
+
+# Local design and QA artifacts
+qa-*.png
+final-preview.png
+design-qa.md
+AGENTS.md
+
+# This project deploys with pnpm
+package-lock.json
+
+# Local environment files
+*.local
+.env*
+!.env.example
+
